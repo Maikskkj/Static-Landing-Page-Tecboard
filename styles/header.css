@@ -1,0 +1,43 @@
+.cabecalho {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecalho__logo {
+    width: 10%;
+}
+
+.botao {
+    width: 2%;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media (max-width: 1024px) {
+    .cabecalho {
+        justify-content: space-between;
+        margin: 2rem 5rem;
+    }
+
+    .cabecalho__logo {
+        width: 30%;
+    }
+
+    .botao {
+        width: 30%;
+    }
+}
+
+@media (max-width: 430px) {
+    .cabecalho {
+        margin: 0;
+    }
+    .cabecalho__logo {
+        width: 50%;
+        margin: 1rem;
+    }
+}

@@ -1,0 +1,11 @@
+
+
+body.dark-mode {
+    --background-white: var(--background-dark);
+    color: var(--offwhite);
+}
+
+/* SEÇÃO */
+.dark-mode .secao__principal .principal .principal__titulo .break  {
+    color: var(--offwhite);
+}
